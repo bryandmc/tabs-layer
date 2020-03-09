@@ -58,8 +58,8 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
-(setq tabs-packages '(centaur-tabs))
-(defun tabs/init-centaur-tabs ()
+(setq tabs-layer-packages '(centaur-tabs))
+(defun tabs-layer/init-centaur-tabs ()
   (use-package centaur-tabs)
 
   (setq centaur-tabs-style "bar")
